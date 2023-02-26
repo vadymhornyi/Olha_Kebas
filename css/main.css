@@ -53,6 +53,32 @@ html, body {
     letter-spacing: normal;
 }
 
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        color: white;
+        display: block;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        color: white;
+        display: none;
+    }
+  }
+
 .nav-row {
     display: flex;
     justify-content: space-between;

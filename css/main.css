@@ -360,3 +360,20 @@ img, svg {
     display: flex;
     flex-direction: row;
 }
+
+
+.text__3 {
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.inform__1 {
+    font-size: 18px;
+    font-weight:500;
+    color: var(--heder-text);
+}
+
+.inform__1 strong {
+    font-weight: 700;
+    color: var(--blue);
+}

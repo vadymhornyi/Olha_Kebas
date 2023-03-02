@@ -39,8 +39,7 @@ html, body {
     margin: 0px auto;
     padding: 15px 0;
     max-width: 1200px;
-    justify-content: center;
-    
+    justify-content: center;      
 }
 
 /*NAV*/
@@ -311,6 +310,7 @@ img, svg {
     flex-direction: column;
     padding: 70px 0;
     align-items: center;
+    border-bottom: 1px solid var(--dark-border);
 }
 
 .title__1 {
@@ -324,7 +324,7 @@ img, svg {
 }
 
 .inform {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     color: var(--heder-text);
 }
@@ -368,9 +368,10 @@ img, svg {
 }
 
 .inform__1 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight:500;
     color: var(--heder-text);
+    text-align: center;
 }
 
 .inform__1 strong {

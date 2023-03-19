@@ -239,7 +239,7 @@ img, svg {
 .footer__wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-self: center;
     row-gap: 27px;
 }
 
@@ -255,6 +255,7 @@ img, svg {
 
 .copyright {
     font-size: 12px;
+    align-self: center;
 }
 
 /* Main projects*/

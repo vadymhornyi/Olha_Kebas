@@ -436,7 +436,7 @@ img, svg {
   
 .links:focus {
     border-bottom: 1px solid;
-    background: #151152;
+    background: var(--accent);
 }
   
 .links:hover {

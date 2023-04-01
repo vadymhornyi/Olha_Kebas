@@ -99,11 +99,17 @@ html, body {
     font-weight: 700;
 }
 
+.translate {
+    background: transparent;
+    border: none;
+    margin-left: -30px;
+}
+
 .nav-list {
     display: flex;
     align-items: center;
     column-gap: 40px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }

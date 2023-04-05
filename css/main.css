@@ -411,7 +411,7 @@ img, svg {
     color: var(--heder-text);
 }
 
-.inform__1 span {
+.inform__1 .blue_span {
     font-size: 30px;
     font-weight: 400;
     color: var(--blue);

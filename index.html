@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olha Kebas</title>
     <link rel="stylesheet" href="./css/main.css">
-    <script src="./js/jquery.min.js"></script>
 </head>
 <body>  
+    <div class="loader"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>
     <nav class="nav">
         <div class="container">
             <div class="nav-row">
@@ -36,7 +36,7 @@
             <div class="header__wrapper">
                 <h1 class="header__title lang"><strong class="lang" key="greetings_a">Cześć, nazywam się </strong><strong><em class="lang" key="greetings_b"> Olha Kebas</em></strong>
                 </h1>
-                <p class="header__text lang" key="greetings_1">Jestem Badaczka tańca współczesnego (studia podyplomowe, Lwowski Uniwersytet Narodowy im. Iwana Franki), wykładowca tańca współczesnego (teoria i praktyka), reżyserka, performerka, kuratorka, organizatorka wydarzeń kulturalnych, ekspertka UFK
+                <p class="header__text lang" key="greetings_1">Jestem badaczka tańca współczesnego (studia podyplomowe, Lwowski Uniwersytet Narodowy im. Iwana Franki), wykładowca tańca współczesnego (teoria i praktyka), reżyserka, performerka, kuratorka, organizatorka wydarzeń kulturalnych, ekspertka UFK
                     Kijów, Ukraina               
                 </p>
                 <a href="#!" class="btn">Download CV</a> 
@@ -63,5 +63,6 @@
 
 
 
+    <script src="./js/jquery.min.js" onload="loader()"></script>
 </body>
 </html>

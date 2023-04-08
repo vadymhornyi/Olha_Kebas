@@ -165,7 +165,7 @@ html, body {
 }
 
 img, svg {
-    max-width: 50%;
+    max-width: 41%;
     height: auto
 }
 
@@ -202,7 +202,7 @@ img, svg {
 }
 
 .header__text {
-    margin-bottom: 40px;
+    margin-bottom: px;
     padding: 0px 0px;  
     font-size: 30px;
     line-height: 1.333;

@@ -210,7 +210,7 @@ img, svg {
 
 .btn {
     display: inline-block;
-    height: 50px;
+    height: 40px;
     padding: 11px 20px;
     border-radius: 5px;
     background-color: var(--accent);

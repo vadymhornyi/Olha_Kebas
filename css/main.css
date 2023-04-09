@@ -165,8 +165,8 @@ html, body {
 }
 
 img, svg {
-    max-width: 41%;
-    height: auto
+    max-width: 38%;
+    height: auto;
 }
 
 .img__pro2 {
@@ -204,7 +204,7 @@ img, svg {
 .header__text {
     margin-bottom: px;
     padding: 0px 0px;  
-    font-size: 30px;
+    font-size: 34px;
     line-height: 1.333;
 }
 
@@ -511,4 +511,6 @@ img, svg {
       transform: rotate(360deg);
     }
   }
+
+
   

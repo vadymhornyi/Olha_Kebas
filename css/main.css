@@ -354,10 +354,20 @@ img, svg {
     text-align: center;
 }
 
+.title__1 strong {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--blue);
+}
+
 .inform {
     font-size: 20px;
     font-weight: 400;
     color: var(--heder-text);
+}
+.foto_pr1 {
+    max-width: 100%;
+    height: auto;  
 }
 
 .foto__text {
@@ -375,7 +385,6 @@ img, svg {
 
 .foto__text1 {
     padding: 20px;
-    margin-bottom: 40px;
     align-items: center;
     font-size: 29.5px;
     font-weight: 400;
@@ -385,7 +394,8 @@ img, svg {
 }
 
 .foto__text2 {
-    margin-bottom: 40px;
+    padding: 20px 0px;
+    
     align-items: center;
     font-size: 30px;
     font-weight: 400;
@@ -427,7 +437,7 @@ img, svg {
 }
 
 .img_3_4 {
-    max-width: 30%;
+    max-width:80%;
     
 }
 

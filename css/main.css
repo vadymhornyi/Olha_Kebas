@@ -257,7 +257,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-self: center;
-    row-gap: 27px;
+    row-gap: 10px;
 }
 
 .social {

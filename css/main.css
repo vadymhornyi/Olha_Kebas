@@ -55,6 +55,7 @@ html, body {
     background-color: var(--dark-bg);
     color: var(--heder-text);
     letter-spacing: normal;
+    
 }
 
 .burger {
@@ -90,6 +91,7 @@ html, body {
     column-gap: 20px;
     row-gap: 20px;
     flex-wrap: wrap;
+    
 }
 
 .logo {
@@ -328,9 +330,10 @@ html, body {
 }
 
 .project__img {
-    width: 200px;
-    height: 100px;
+    width: 370px;
+    height: 370px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .project_title {

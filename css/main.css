@@ -428,6 +428,7 @@ html, body {
     padding: 10px;
     margin-bottom: 15px;
     font-size: 23px;
+    color: var(--heder-text);
 }
 
 .inform__1 {

@@ -149,6 +149,8 @@ html, body {
 
 .header {
     padding: 40px 15px;
+    width: 1200px;
+    margin-left: 150px;
     min-height: 590px;
     display: flex;
     justify-content: center;
@@ -175,6 +177,15 @@ html, body {
     height: auto;
 }
 
+.fhome {
+    float: left;
+    max-width: 35%;
+    height: auto;
+    position: absolute; left: 0;
+    margin-left: 11%;
+    
+}
+
 .foto_nauka {
     max-width: 45%;
     height: auto;
@@ -187,11 +198,15 @@ html, body {
 
 .header__wrapper {
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     padding: 0 15px;
     width: 50%;
-    max-width: 590px;  
+    max-width: 590px;
+    margin-left: auto;
+
+
 }
 
 .header__title {

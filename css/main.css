@@ -148,19 +148,15 @@ html, body {
 /* Header*/
 
 .header {
-    padding: 40px 15px;
-    width: 1200px;
-    margin-left: 150px;
-    min-height: 590px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border-bottom: 1px solid var(--dark-border);
-
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: left center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 70px;
+    
+    
 
     background-color: var(--dark-bg);
     color: var(--heder-text);
@@ -178,12 +174,9 @@ html, body {
 }
 
 .fhome {
-    float: left;
-    max-width: 35%;
-    height: auto;
-    position: absolute; left: 0;
-    margin-left: 11%;
-    
+    width: 550px;
+    height: 700px;
+    object-fit: cover;
 }
 
 .foto_nauka {
@@ -197,20 +190,13 @@ html, body {
 }
 
 .header__wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 15px;
-    width: 50%;
-    max-width: 590px;
-    margin-left: auto;
-
-
+    flex-basis: 50%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .header__title {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 25px;
     font-weight: 700;
 }
@@ -227,15 +213,16 @@ html, body {
 }
 
 .header__text {
-    margin-bottom: px;
-    padding: 0px 0px;  
-    font-size: 34px;
+    margin-bottom: 10px;
+    padding: 0px 30px;  
+    font-size: 33px;
     line-height: 1.333;
 }
 
 .btn {
     display: inline-block;
     height: 40px;
+    width: 186px;
     padding: 11px 20px;
     border-radius: 5px;
     background-color: var(--accent);
@@ -269,7 +256,7 @@ html, body {
 
 .footer {
     padding: 20px 0 10px;
-    border-bottom: 1px solid var(--black-border);
+    border-top: 1px solid var(--black-border);
     background-color: var(--dark-bg);
     color: var(--heder-text);
 }
@@ -421,7 +408,7 @@ html, body {
 
 .foto__text2 {
     padding: 20px 0px;
-    
+    text-align: center;
     align-items: center;
     font-size: 30px;
     font-weight: 400;

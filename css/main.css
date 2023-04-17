@@ -173,6 +173,16 @@ html, body {
     height: auto;
 }
 
+.foto_home_2_3 {
+    max-width:28%;
+    height: auto;
+}
+
+.foto_home_2_2 {
+    max-width: 43%;
+    height: auto;
+}
+
 .fhome {
     width: 550px;
     height: 700px;
@@ -407,6 +417,8 @@ html, body {
 }
 
 .foto__text2 {
+    display: flex;
+    flex-direction: column;
     padding: 20px 0px;
     text-align: center;
     align-items: center;
@@ -414,9 +426,6 @@ html, body {
     font-weight: 400;
     line-height: 1.3;
     color: var(--white );
-    
-    display: flex;
-    flex-direction: row;
 }
 
 .paragraf {
@@ -555,30 +564,29 @@ html, body {
 
 /* batoon Back*/
 
-.backButton {
-    
+.backButton {    
     position: fixed;
     z-index: 999;
     bottom: 40px;
     right: 40px;
     font-family: 'DM Sans', sans-serif;
-    
+    font-size: 17px;
+
     display: inline-block;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    font-size: 17px;
     background: var(--black-border);
     transition: width 0.5s;
-    padding: 12px 17px;
+    padding: 12px 15px;
     border-radius: 100px;
     color: var(--white);
     box-shadow: 0 10px 20px rgba(243, 241, 241, 0.19), 0 6px 6px rgba(247, 244, 244, 0.23);
 }
 
-button:hover {
+.backButton:hover {
 	background: rgba(0,0,0,0);
 	color: var(--blue);	
-    box-shadow: inset 0 0 0 1px, 0 10px 20px rgba(243, 241, 241, 0.19), 0 6px 6px rgba(247, 244, 244, 0.23);
+    box-shadow: inset 0 0 0 1px, 0 10px 20px rgba(58, 8, 108, 0.19), 0 6px 6px rgba(245, 244, 247, 0.23);
     
 }

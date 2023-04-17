@@ -8,18 +8,24 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>  
+        <div class="loader"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>
     <nav class="nav">
         <div class="container">
             <div class="nav-row">
                 <a href="../index.html" class="logo"><strong>Performer</strong> portfolio</a>
-                    <ul class="nav-list">
-                        <li class="nav-list__item"><a href="../postanovochna.html" class="nav-list__link nav-list__link--active">Doświadczenie rezyserskie i artystyczne</a></li>
-                        <li class="nav-list__item"><a href="../uchastuproect.html" class="nav-list__link">Udział w projektach</a></li>
-                        <li class="nav-list__item"><a href="../upravlenieproect.html" class="nav-list__link">Zarządzanie projektami</a></li>
-                        <li class="nav-list__item"><a href="../nauka.html" class="nav-list__link">Nauka, badania, ekspertyza</a></li>
-                        <li class="nav-list__item"><a href="../prepod.html" class="nav-list__link">Doświadczenie zawodowe wykładowcy</a></li>
-                        <li class="nav-list__item"><a href="../contacts.html" class="nav-list__link">Dodatkowe informacje, kontakty</a></li>
-                    </ul>
+                <ul class="nav-list">
+                    <li class="header-items-lang-pl"><button id="pl" class="translate"><img class="flag" src="../img/icons/pl.png" alt="plflag"></button></li> 
+                    <li class="header-items-lang-en"><button id="ukr" class="translate"><img class="flag" src="../img/icons/ukr.png" alt="ukrflag"></button></li>
+                    <li class="header-items-lang-ukr"><button id="en" class="translate"><img class="flag" src="../img/icons/uk.png" alt="ukflag"></button></li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="../postanovochna.html" class="nav-list__link lang" key="postanovochna">Doświadczenie rezyserskie i artystyczne</a></li>
+                    <li class="nav-list__item"><a href="../uchastuproect.html" class="nav-list__link lang" key="uchastuproect">Udział w projektach</a></li>
+                    <li class="nav-list__item"><a href="../upravlenieproect.html" class="nav-list__link lang" key="upravlenieproect">Zarządzanie projektami</a></li>
+                    <li class="nav-list__item"><a href="../nauka.html" class="nav-list__link lang" key="nauka">Nauka, badania, ekspertyza</a></li>
+                    <li class="nav-list__item"><a href="../prepod.html" class="nav-list__link lang" key="prepod">Doświadczenie zawodowe wykładowcy</a></li>
+                    <li class="nav-list__item"><a href="../contacts.html" class="nav-list__link lang" key="contacts">Dodatkowe informacje, kontakty</a></li>
+                </ul>
             </div>            
         </div>
     </nav>
@@ -27,8 +33,8 @@
     <main class="section_pr_1">
         <h2 class="title__1"><p><strong>DEMO-wersja 4.0</strong>
             (Ukraina, 2018)</p></h2>
+            <h3 class="title__2">Performance-badanie w ramach projektu „Demokracja od nowa?” w PinchukArtCentre, Kijów, Ukraina</h3>
             <div class="container">          
-                <h3 class="title__2">Performance-badanie w ramach projektu „Demokracja od nowa?” w PinchukArtCentre, Kijów, Ukraina</h3>
                     <div class="foto__text">
                         <img class="foto_home" src="../img/project/3_1.jpg">
                       
@@ -44,10 +50,11 @@
                     „Demokracja to umiejętność, która pozwala nam żyć w złożonej strukturze społecznej” (M. Mamardashvili)    
                     </p>           
                 </div>
-                               
+                 <button onclick="onBack()" class="backButton">Back</button>              
             </div>
                        
         </div>
+        <script src="../js/jquery.min.js" onload="loader()"></script>
     </main>
 
 

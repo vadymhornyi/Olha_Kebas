@@ -183,6 +183,11 @@ html, body {
     height: auto;
 }
 
+.foto_home_2_4 {
+    max-width: 100%;
+    height: auto;
+}
+
 .fhome {
     width: 550px;
     height: 700px;

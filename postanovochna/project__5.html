@@ -8,47 +8,54 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>  
+    <div class="loader"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>
     <nav class="nav">
         <div class="container">
             <div class="nav-row">
                 <a href="../index.html" class="logo"><strong>Performer</strong> portfolio</a>
-                    <ul class="nav-list">
-                        <li class="nav-list__item"><a href="../postanovochna.html" class="nav-list__link nav-list__link--active">Doświadczenie rezyserskie i artystyczne</a></li>
-                        <li class="nav-list__item"><a href="../uchastuproect.html" class="nav-list__link">Udział w projektach</a></li>
-                        <li class="nav-list__item"><a href="../upravlenieproect.html" class="nav-list__link">Zarządzanie projektami</a></li>
-                        <li class="nav-list__item"><a href="../nauka.html" class="nav-list__link">Nauka, badania, ekspertyza</a></li>
-                        <li class="nav-list__item"><a href="../prepod.html" class="nav-list__link">Doświadczenie zawodowe wykładowcy</a></li>
-                        <li class="nav-list__item"><a href="../contacts.html" class="nav-list__link">Dodatkowe informacje, kontakty</a></li>
-                    </ul>
+                <ul class="nav-list">
+                    <li class="header-items-lang-pl"><button id="pl" class="translate"><img class="flag" src="../img/icons/pl.png" alt="plflag"></button></li> 
+                    <li class="header-items-lang-en"><button id="ukr" class="translate"><img class="flag" src="../img/icons/ukr.png" alt="ukrflag"></button></li>
+                    <li class="header-items-lang-ukr"><button id="en" class="translate"><img class="flag" src="../img/icons/uk.png" alt="ukflag"></button></li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="../postanovochna.html" class="nav-list__link nav-list__link--active lang" key="postanovochna">Doświadczenie rezyserskie i artystyczne</a></li>
+                    <li class="nav-list__item"><a href="../uchastuproect.html" class="nav-list__link lang" key="uchastuproect">Udział w projektach</a></li>
+                    <li class="nav-list__item"><a href="../upravlenieproect.html" class="nav-list__link lang" key="upravlenieproect">Zarządzanie projektami</a></li>
+                    <li class="nav-list__item"><a href="../nauka.html" class="nav-list__link lang" key="nauka">Nauka, badania, ekspertyza</a></li>
+                    <li class="nav-list__item"><a href="../prepod.html" class="nav-list__link lang" key="prepod">Doświadczenie zawodowe wykładowcy</a></li>
+                    <li class="nav-list__item"><a href="../contacts.html" class="nav-list__link lang" key="contacts">Dodatkowe informacje, kontakty</a></li>
+                </ul>
             </div>            
         </div>
     </nav>
 
     <main class="section_pr_1">
-        <h2 class="title__1"><p><strong>WYSPY GRY I TAŃCA</strong>
-            (Ukraina-Polska, 2014)</p></h2>
-            <div class="container">          
-                <p class="inform"></p>
-                <h3 class="title__2">instalacja interaktywna w ramach festiwalu GENERATOR MALTA, Poznań, Polska</h3>
+        <h1 class="title__1 lang2_5"><strong class="lang2_5" key="zag5_1">WYSPY GRY I TAŃCA</strong>
+            <span class="lang2_5" key="zag5_2">(Ukraina-Polska, 2014)</span></h1>
+            <h3 class="title__2 lang2_5" key="zag5_3">Instalacja interaktywna w ramach festiwalu GENERATOR MALTA, Poznań, Polska</h3>
+                <div class="container">
                     <div class="foto__text">
-                        <img class="" src="../img/project/5_1.jpg">
-                            <div class="foto__text1"> 
-                                <p>Pomysł, inscenizacja: Olha Kebas(UA)<br>
-                                    instalacja interaktywna: Patrycja PiPa Pivosz(PL)<br>
-                                    Uczestnicy: studenci wydziału tańca nowoczesnego WSUS, dzieci i mieszkańcy Poznania<br>
-                                    Muzyka: Dmytro Danov(UA) 
-                                </p>
+                        <img class="foto_pr1" src="../img/project/5_1.jpg">
+                            <div class="foto__text1 lang2_1"> 
+                                <span class="lang2_5" key="punkt2_5_1">Pomysł, inscenizacja: Olha Kebas(UA)</span><br>
+                                <span class="lang2_5" key="punkt2_5_2">Instalacja interaktywna: Patrycja PiPa Pivosz(PL)</span><br>
+                                <span class="lang2_5" key="punkt2_5_3">Uczestnicy: studenci wydziału tańca nowoczesnego WSUS, dzieci i mieszkańcy Poznania</span><br>
+                                <span class="lang2_5" key="punkt2_5_4">Muzyka: Dmytro Danov(UA)</span>                                   
                             </div>
                     </div>
-                    <div class="foto__text2">
-                        <p>Świat funkcjonuje w unikalnej równowadze. Inspiracją do stworzenia instalacji jest Ziemia: jej wygląd, układ kontynentów, ukształtowanie terenu, a także to, jak planeta zmienia się z biegiem czasu i to, jaki wpływ na jej wygląd i kondycję ma człowiek. 
-                        </p>
+                    <div class="foto__text2 lang2_5">
+                        <span class="lang2_5" key="punkt2_5_5">Świat funkcjonuje w unikalnej równowadze. Inspiracją do
+                             stworzenia instalacji jest Ziemia: jej wygląd, układ kontynentów, ukształtowanie terenu,
+                              a także to, jak planeta zmienia się z biegiem czasu i to, jaki wpływ na jej wygląd i
+                               kondycję ma człowiek.</span>
                     </div>
-                        <div class="gallery_pr">
+<button onclick="onBack()" class="backButton">back</button>
+                    <div class="gallery_pr">
                             <img src="../img/project/5_2.jpg">               
                         </div>
             
-            </div>
+                </div>
     </main>
 
     <footer class="footer">
@@ -68,6 +75,6 @@
     </footer>
 
 
-
+    <script src="../js/jquery.min.js" onload="loader()"></script>
 </body>
 </html>

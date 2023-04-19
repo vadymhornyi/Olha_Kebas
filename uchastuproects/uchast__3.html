@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>  
+    <div class="loader"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>
     <nav class="nav">
         <div class="container">
             <div class="nav-row">
@@ -17,21 +18,20 @@
                     <li class="header-items-lang-en"><button id="ukr" class="translate"><img class="flag" src="../img/icons/ukr.png" alt="ukrflag"></button></li>
                     <li class="header-items-lang-ukr"><button id="en" class="translate"><img class="flag" src="../img/icons/uk.png" alt="ukflag"></button></li>
                 </ul>
-                    <ul class="nav-list">
-                        <li class="nav-list__item"><a href="../postanovochna.html" class="nav-list__link">Doświadczenie rezyserskie i artystyczne</a></li>
-                        <li class="nav-list__item"><a href="../uchastuproect.html" class="nav-list__link nav-list__link--active">Udział w projektach</a></li>
-                        <li class="nav-list__item"><a href="../upravlenieproect.html" class="nav-list__link">Zarządzanie projektami</a></li>
-                        <li class="nav-list__item"><a href="../nauka.html" class="nav-list__link">Nauka, badania, ekspertyza</a></li>
-                        <li class="nav-list__item"><a href="../prepod.html" class="nav-list__link">Doświadczenie zawodowe wykładowcy</a></li>
-                        <li class="nav-list__item"><a href="../contacts.html" class="nav-list__link">Dodatkowe informacje, kontakty</a></li>
-                    </ul>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="../postanovochna.html" class="nav-list__link lang" key="postanovochna">Doświadczenie rezyserskie i artystyczne</a></li>
+                    <li class="nav-list__item"><a href="../uchastuproect.html" class="nav-list__link nav-list__link--active lang" key="uchastuproect">Udział w projektach</a></li>
+                    <li class="nav-list__item"><a href="../upravlenieproect.html" class="nav-list__link lang" key="upravlenieproect">Zarządzanie projektami</a></li>
+                    <li class="nav-list__item"><a href="../nauka.html" class="nav-list__link lang" key="nauka">Nauka, badania, ekspertyza</a></li>
+                    <li class="nav-list__item"><a href="../prepod.html" class="nav-list__link lang" key="prepod">Doświadczenie zawodowe wykładowcy</a></li>
+                    <li class="nav-list__item"><a href="../contacts.html" class="nav-list__link lang" key="contacts">Dodatkowe informacje, kontakty</a></li>
+                </ul>
             </div>            
         </div>
     </nav>
-
     <main class="section_pr_1">
-        <h2 class="title__1"><p>
-            <h2 class="title__1"><p>Metamorfoza (Ukraina-Holandia-Polska, 2016, 2019)</p></h2>
+        <h1 class="title__1 lang33_3"><strong class="lang33_3" key="zag33_1">Metamorfoza</strong>
+            <span class="lang33_3" key="zag33_3"> (Ukraina-Holandia-Polska, 2016, 2019)</span></h1>  
                 <div class="container">          
                     <p class="inform"></p>
                         <h3 class="title__2"></h3>
@@ -64,6 +64,7 @@
                                             <a style="color: #72839a" href="https://www.facebook.com/events/2282938295356403/2283208141996085/" target="_blank">
                                         https://www.facebook.com/events/2282938295356403/2283208141996085/</a>
                                         </div>
+    <button onclick="onBack()" class="backButton">back</button>
                                         <div class="gallery_pr">
                                             <img src="../img/uchast/3_2.jpg" alt="img">
                                             <img src="../img/uchast/3_3.jpg" alt="img">
@@ -76,31 +77,24 @@
                 </div>                        
     </main>
                            
-                
-            
-                <footer class="footer">
-                    <div class="container">
-                        <div class="footer__wrapper">
-                            <ul class="social">
-                                <li class="cocial__item"><a href="#!"><img src="../img/icons/inst.png" alt="link"></a></li>
-                                <li class="cocial__item"><a href="#!"><img src="../img/icons/face.png" alt="link"></a></li>
-                                <li class="cocial__item"><a href="#!"><img src="../img/icons/skype.png" alt="link"></a></li>
-                                <li class="cocial__item"><a href="#!"><img src="../img/icons/telegr.png" alt="link"></a></li>
-                                </ul>
-                                <div class="copyright">
-                                    <p>2023 Vadim Hornyi</p>
-                                </div>   
-                        </div>
-                    </div>
-                </footer>
-            
-            
-      
+    <footer class="footer">
+        <div class="container">
+                <div class="footer__wrapper">
+                    <ul class="social">
+                        <li class="cocial__item"><a href="#!"><img src="../img/icons/inst.png" alt="link"></a></li>
+                        <li class="cocial__item"><a href="#!"><img src="../img/icons/face.png" alt="link"></a></li>
+                        <li class="cocial__item"><a href="#!"><img src="../img/icons/skype.png" alt="link"></a></li>
+                        <li class="cocial__item"><a href="#!"><img src="../img/icons/telegr.png" alt="link"></a></li>
+                    </ul>
+                            <div class="copyright">
+                                <p>2023 Vadim Hornyi</p>
+                            </div>   
+                </div>
+        </div>
+    </footer>  
+              
     </main>
                
-    
-
-
-
+    <script src="../js/jquery.min.js" onload="loader()"></script>
 </body>
 </html>

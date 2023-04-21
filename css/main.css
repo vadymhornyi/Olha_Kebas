@@ -432,11 +432,6 @@ html, body {
     color: var(--white );
 }
 
-.cifra {
-    font-size: 300px;
-    font-weight: 500;
-}
-
 .paragraf {
     font-size: 30px;
     font-weight: 400;
@@ -578,8 +573,10 @@ html, body {
     z-index: 999;
     bottom: 40px;
     right: 40px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 17px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: normal;
 
     display: inline-block;
     text-align: center;

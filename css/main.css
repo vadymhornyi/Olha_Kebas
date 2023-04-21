@@ -432,6 +432,11 @@ html, body {
     color: var(--white );
 }
 
+.cifra {
+    font-size: 300px;
+    font-weight: 500;
+}
+
 .paragraf {
     font-size: 30px;
     font-weight: 400;

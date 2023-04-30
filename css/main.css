@@ -77,6 +77,14 @@ html, body {
     .nav {
         display: none;
     }
+    
+    .logo {
+        display: block;
+    }
+
+    .flag {
+        display: block;
+    }
 
     .burger {
         color: var(--white);
@@ -150,6 +158,8 @@ html, body {
 .header {
     display: flex;
     max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;

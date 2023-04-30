@@ -149,15 +149,14 @@ html, body {
 
 .header {
     display: flex;
-    justify-content: center;
+    max-width: 1200px;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 70px;
-    
-    
-
+    margin-left: auto;
+    margin-right: auto;
+   
     background-color: var(--dark-bg);
     color: var(--heder-text);
     text-align: center;

@@ -616,12 +616,21 @@ body {
     .header__wrapper {}
 
     .header__title strong {
-        font-size: 10px;
+        font-size: 30px;
         font-weight: 400;
     }
 
     .header__title {
-        font-size: 10px;
+        font-size: 20px;
+    }
+    .header__text {
+        font-size: 20px;
+    }
+
+    .fhome {
+        width: 550px;
+        height: 400px;
+        object-fit: cover;
     }
 }
 
@@ -644,12 +653,21 @@ body {
     .header__wrapper {}
 
     .header__title strong {
-        font-size: 10px;
+        font-size: 30px;
         font-weight: 400;
     }
 
     .header__title {
-        font-size: 10px;
+        font-size: 20px;
+    }
+    .header__text {
+        font-size: 20px;
+    }
+
+    .fhome {
+        width: 550px;
+        height: 400px;
+        object-fit: cover;
     }
 
 }

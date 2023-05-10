@@ -48,6 +48,10 @@ html, body {
     justify-content: flex-start;    
 }
 
+img {
+    min-width: 100%;
+}
+
 /*NAV*/
 
 .nav {
@@ -78,18 +82,67 @@ html, body {
         display: none;
     }
     
-    .logo {
-        display: block;
+    .nav:nav-row {
+        visibility: hidden;
+    }
+    
+    .header {
+        justify-content: center;
     }
 
-    .flag {
-        display: block;
+    .header__wrapper {
+        justify-content: center;
+    }
+    
+    .header__title strong {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .header__title lang {
+        font-size: 10px;
     }
 
+    .fhome {
+        width: 200px;
+        height: 400px;
+  }
+  
     .burger {
         color: var(--white);
         display: none;
     }
+  }
+
+  @media screen and (max-width: 320px) {
+    .nav {
+        
+        visibility: hidden;
+    }
+    
+    .nav:nav-row {
+        visibility: visible;
+    }
+    
+    .header {
+        justify-content: center;
+    }
+
+    .header__wrapper {
+        justify-content: center;
+    }
+    
+    .header__title strong {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .header__title lang {
+        font-size: 10px;
+    }
+
+    .fhome {
+        width: 200px;
+        height: 400px;
+  }
   }
 
 .nav-row {

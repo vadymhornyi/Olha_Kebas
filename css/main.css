@@ -632,6 +632,10 @@ body {
         height: 400px;
         object-fit: cover;
     }
+
+    .btn {
+        margin: 10px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -670,4 +674,7 @@ body {
         object-fit: cover;
     }
 
+    .btn {
+        margin: 10px;
+    }
 }

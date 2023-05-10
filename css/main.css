@@ -616,7 +616,7 @@ body {
     .header__wrapper {}
 
     .header__title strong {
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 400;
     }
 
@@ -657,15 +657,15 @@ body {
     .header__wrapper {}
 
     .header__title strong {
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 400;
     }
 
     .header__title {
-        font-size: 20px;
+        font-size: 25px;
     }
     .header__text {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .fhome {

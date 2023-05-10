@@ -599,15 +599,18 @@ body {
 }
 
 @media screen and (max-width: 420px) and (min-width: 321px) {
-    .nav {
-        display: none;
+    .nav,
+    .nav .nav-list {
+
+        visibility: hidden;
     }
 
-    .nav:nav-row {}
+    .nav .nav-row {
+        visibility: visible;
+    }
 
     .header {
         display: block;
-
     }
 
     .header__wrapper {}
@@ -619,11 +622,6 @@ body {
 
     .header__title {
         font-size: 10px;
-    }
-
-    .burger {
-        color: var(--white);
-        display: none;
     }
 }
 

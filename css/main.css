@@ -669,6 +669,10 @@ body {
     display: block;
 }
 
+.links {
+    display: block;
+}
+
 .btn {
     margin: 10px;
 }

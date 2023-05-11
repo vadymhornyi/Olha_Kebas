@@ -617,9 +617,7 @@ body {
 
 .container {
     display: block;
-    max-width: 100%;
-    
-    
+    max-width: 100%;    
 }
 
 .header {
@@ -665,6 +663,10 @@ body {
     width: 370px;
     height: 400px;
     object-fit: cover;
+}
+
+.links {
+    display: block;
 }
 
 .btn {

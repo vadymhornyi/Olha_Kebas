@@ -270,6 +270,7 @@ body {
     display: flex;
     column-gap: 10px;
     align-items: center;
+    justify-content: center;
 }
 
 .social img {
@@ -607,7 +608,7 @@ body {
 
     .nav .nav-row, .header-items-lang-pl, .header-items-lang-en, .header-items-lang-ukr {
         visibility: visible;
-        justify-content: center;
+        
     }
 
     .logo {

@@ -88,7 +88,7 @@ body {
     column-gap: 20px;
     row-gap: 20px;
     flex-wrap: wrap;
-
+    padding: 10px;
 }
 
 .logo {
@@ -622,48 +622,48 @@ body {
     
 }
 
-    .header {
-        display: block;
-        max-width: 100%;
-    }
+.header {
+    display: block;
+    max-width: 100%;
+}
 
-    .header__title strong {
-        font-size: 40px;
-        font-weight: 400;
-    }
+.header__title strong {
+    font-size: 40px;
+    font-weight: 400;
+}
 
-    .header__title {
-        font-size: 25px;
-    }
-    .header__text {
-        font-size: 25px;
-    }
+.header__title {
+    font-size: 25px;
+}
+.header__text {
+    font-size: 25px;
+}
 
-    .fhome {
-        width: 370px;
-        height: 400px;
-        object-fit: cover;
-    }
+.fhome {
+    width: 370px;
+    height: 400px;
+    object-fit: cover;
+}
 
-    .btn {
-        margin: 10px;
-    }
+.btn {
+    margin: 10px;
+}
 }
 
 @media screen and (max-width: 320px) {
 
-    .nav,
-    .nav .nav-list {
+.nav,
+.nav .nav-list {
 
-        display: block;
-    }
+    display: block;
+}
 
-    .nav .nav-row, .header-items-lang-pl, .header-items-lang-en, .header-items-lang-ukr {
-        visibility: visible;
-        justify-content: center;
-    }
+.nav .nav-row, .header-items-lang-pl, .header-items-lang-en, .header-items-lang-ukr {
+    visibility: visible;
+    justify-content: center;
+}
 
-    .logo {
+.logo {
     font-size: 40px;
 }
 
@@ -671,32 +671,31 @@ body {
     display: block;
     max-width: 100%;
     
-    
 }
 
-    .header {
-        display: block;
-    }
+.header {
+    display: block;
+}
 
-    .header__title strong {
-        font-size: 40px;
-        font-weight: 400;
-    }
+.header__title strong {
+    font-size: 40px;
+    font-weight: 400;
+}
 
-    .header__title {
-        font-size: 25px;
-    }
-    .header__text {
-        font-size: 25px;
-    }
+.header__title {
+    font-size: 25px;
+}
+.header__text {
+    font-size: 25px;
+}
 
-    .fhome {
-        width: 320px;
-        height: 400px;
-        object-fit: cover;
-    }
+.fhome {
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+}
 
-    .btn {
-        margin: 10px;
-    }
+.btn {
+    margin: 10px;
+}
 }

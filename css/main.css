@@ -613,8 +613,6 @@ body {
         display: block;
     }
 
-    .header__wrapper {}
-
     .header__title strong {
         font-size: 45px;
         font-weight: 400;
@@ -653,8 +651,6 @@ body {
     .header {
         display: block;
     }
-
-    .header__wrapper {}
 
     .header__title strong {
         font-size: 40px;

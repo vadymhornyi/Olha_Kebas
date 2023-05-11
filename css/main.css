@@ -650,6 +650,14 @@ body {
 }
 
 .foto_home_2_2 {
+    max-width: 100%;
+    width: 370px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.foto_home_2_3 {
+    max-width: 100%;
     width: 370px;
     height: 400px;
     object-fit: cover;

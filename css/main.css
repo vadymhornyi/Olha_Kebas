@@ -589,7 +589,7 @@ body {
 
 @media screen and (max-width: 720px) and (min-width: 421px) {
     .nav {
-        display: none;
+        display: block;
     }
 
     .burger {
@@ -601,8 +601,8 @@ body {
 @media screen and (max-width: 420px) and (min-width: 321px) {
     .nav,
     .nav .nav-list {
-
-        visibility: hidden;
+    display: block;
+        
     }
 
     .nav .nav-row, .header-items-lang-pl, .header-items-lang-en, .header-items-lang-ukr {
@@ -623,6 +623,7 @@ body {
 
     .header {
         display: block;
+        max-width: 100%;
     }
 
     .header__title strong {
@@ -653,7 +654,7 @@ body {
     .nav,
     .nav .nav-list {
 
-        visibility: hidden;
+        display: block;
     }
 
     .nav .nav-row, .header-items-lang-pl, .header-items-lang-en, .header-items-lang-ukr {

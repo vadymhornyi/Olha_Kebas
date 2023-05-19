@@ -557,6 +557,10 @@ body {
     height: 380px;
 }
 
+.gallery_pr img:hover {
+    transform: scale(1.6);
+}
+
 /* batoon Back*/
 
 .backButton {

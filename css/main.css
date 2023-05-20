@@ -356,6 +356,20 @@ body {
     border-bottom: 1px solid var(--dark-border);
 }
 
+.section_pr_1__contakts {
+    display: flex;
+    background-image: url(../img/fone/fone_contakts2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px 0;
+    align-items: center;
+    border-bottom: 1px solid var(--dark-border);
+}
+
 .title__1 {
     margin-bottom: 20px;
     align-items: center;
